@@ -86,7 +86,8 @@ $(document).ready(function() {
  
 
 
-    $("#qcontainer").on("click", "#submit", function(){
+    
+        $(document).on("click", "#submit", function(){   
     
    
     var previousFact=questions[questionNumberCounter].fact;

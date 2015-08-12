@@ -6,15 +6,23 @@
   
 }*/
 h1{
+	color: #003366;
 	text-align: center;
-	margin-top: 20px;
-	font-size: 30px;
+	margin-top: 40px;
+	padding-top: 10px;
+	font-size: 25px;
 	font-weight: 700;
 	font-style: bold;
 
 }
+#header{
+	width: 400px;
+	height: 400px;
+	background: #99CC99;
+	margin:40px auto;
+}
 #monumentphoto {
-	margin:10px auto  5px auto;
+	margin:70px  auto 30px;
 	background-image: url('../images/tajMehal.jpg');
 	background-repeat: no-repeat; 
 	
@@ -29,25 +37,23 @@ h1{
 	
 
 #qcontainer {
+	margin: 2px auto;
+	max-width: 30%;
 	font-family: sans-serif;
 	color:black;
-	font-size: 25px;
+	font-size: 15px;
 	text-align: center;
 	padding-top:5px;
 
 }
 
-#answer_holder {
-	display: inline-block;
-	margin-left: 10px;
-	margin-top: 20px;
-	line-height: 35px;
-}
-#button_holder {
-	margin-left: 50px;
+ 
+#button_holder,#answer_holder {
+	margin-left: 600px ;
+	margin-right: 300px;
 }
 #tryAgain {
-	margin-left: 50px;
+	margin-left: 30px;
 	text-align: center;
 }
 
@@ -58,6 +64,8 @@ h1{
 	border-radius: 5px;
 }
 #retry_button{
+	margin-left: 200px ;
+	margin-right: 300px;
 	font-size: 18px;
 	margin-top: 20px;
 	border-radius: 5px;
@@ -74,12 +82,21 @@ h1{
 	color:orange;
 
 	text-align: center;
-	font-size: 25px;
+	font-size: 15px;
 }
 #fact-area{
+	max-width: 30%;
+	margin: 20px auto;
 	font-size: 26px;
 	color: #0C2C52;
-	margin-top: 20px;
+	
 	text-align: center;
-	font-size: 25px;
+	font-size: 15px;
 }
+input[type='radio'], label{ 
+	
+ 
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+ }
